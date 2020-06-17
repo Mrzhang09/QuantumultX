@@ -156,7 +156,7 @@ TG频道:@meetashare
 
 
 
-const address = "&location=auto_ip";//自动定位填 auto_ip , 精确定位填入 经纬度.
+const address = "&location=39.817239, 109.991805";//自动定位填 auto_ip , 精确定位填入 经纬度.
 const k = "&key=5a67645be078419badb72bd3077f4745";//和风天气APIkey,可自行前往 https://dev.heweather.com/ 进行获取(注意key类型选WebApi)
 
 const wea = "https://free-api.heweather.net/s6/weather/now?"+address+k;
